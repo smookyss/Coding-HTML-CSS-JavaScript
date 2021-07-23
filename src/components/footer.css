@@ -1,0 +1,22 @@
+/** @format */
+li {
+  list-style: none;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid black;
+  width: 100vw;
+  background-color: #555;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  color: white;
+}
+.list-item2 {
+  margin-right: 100px;
+}
+.list-item1 {
+  margin-left: 40px;
+}

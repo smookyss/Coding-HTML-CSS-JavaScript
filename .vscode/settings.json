@@ -1,0 +1,7 @@
+{
+  "editor.fontSize": 16,
+  "editor.fontFamily": ",Consolas, Indie Flower,'Courier New', monospace,",
+  "editor.formatOnSave": true,
+  "prettier.insertPragma": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

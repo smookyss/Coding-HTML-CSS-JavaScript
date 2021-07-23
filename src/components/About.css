@@ -1,0 +1,15 @@
+/** @format */
+.About-container {
+  background-image: url(../image/img3.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  position: absolute;
+  top: 30%;
+}

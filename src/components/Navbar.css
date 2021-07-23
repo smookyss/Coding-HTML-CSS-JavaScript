@@ -1,0 +1,39 @@
+/** @format */
+
+.logo {
+  font-size: 35px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+i {
+  color: aliceblue;
+}
+
+.nav-el a {
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(58, 47, 43);
+  width: 100vw;
+  height: 70px;
+}
+.nav-el {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 700px) {
+  .nav-el a {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+.nav-el a:hover {
+  text-decoration: underline rgb(252, 240, 210);
+}
