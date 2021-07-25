@@ -24,7 +24,7 @@ function BlackJack() {
     var cardX = Math.round(Math.random() * 6 + 1);
     var totalResults = cardX + Results;
 
-    if (totalResults == 21) {
+    if (totalResults === 21) {
       setmsg("YOU WON!!");
     } else if (totalResults < 21) {
       setmsg("YOU WANNA DRAW A NEW CARD ?");
